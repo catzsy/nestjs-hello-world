@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/hello-world
+    destination: /home/ec2-user/nestjs-hello-world
 hooks:
   ApplicationStop:
     - location: scripts/application_stop.sh

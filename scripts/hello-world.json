@@ -1,13 +1,13 @@
 {
   "apps" : [
     {
-      "name"          : "hello-world",
+      "name"          : "nestjs-hello-world",
       "script"        : "npm",
       "args"          : "run start:debug",
       "watch"         : false,
-      "cwd"           : "/home/ec2-user/hello-world/",
-      "out_file"      : "/home/ec2-user/hooker.out.log",
-      "err_file"      : "/home/ec2-user/hooker.err.log",
+      "cwd"           : "/home/ec2-user/nestjs-hello-world/",
+      "out_file"      : "/home/ec2-user/nestjs-hello-world.out.log",
+      "err_file"      : "/home/ec2-user/nestjs-hello-world.err.log",
       "merge_logs"    : true,
       "instances"     : 1,
       "exec_mode"     : "cluster"

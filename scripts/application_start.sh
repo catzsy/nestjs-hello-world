@@ -1,11 +1,11 @@
 #!/bin/bash
 
 #give permission for everything in the express-app directory
-sudo chmod -R 777 /home/ec2-user/hello-world
+sudo chmod -R 777 /home/ec2-user/nestjs-hello-world
 
 #navigate into our working directory where we have all our github files
 echo "navigate into our working directory where we have all our github files"
-cd /home/ec2-user/hello-world
+cd /home/ec2-user/nestjs-hello-world
 
 #add npm and node to path
 #echo "add npm and node to the path"
@@ -24,5 +24,5 @@ npm run build
 
 #start our node app in the background
 echo "Run application in PM2 action"
-cp /home/ec2-user/hello-world/scripts/ecosystem.json ecosystem.json
-pm2 start ecosystem.json
+cp /home/ec2-user/nestjs-hello-world/scripts/hello-world.json hello-world.json
+pm2 start hello-world.json

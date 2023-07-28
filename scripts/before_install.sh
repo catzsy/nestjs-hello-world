@@ -8,7 +8,7 @@
 
 #create our working directory if it doesnt exist
 echo "create our working directory if it does not exist"
-DIR="/home/ec2-user/hello-world"
+DIR="/home/ec2-user/nestjs-hello-world"
 if [ -d "$DIR" ]; then
   echo "${DIR} exists"
 else
